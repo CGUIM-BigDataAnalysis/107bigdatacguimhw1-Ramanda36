@@ -1,0 +1,15 @@
+"0","allsalary<-mutate(allsalary,increaserate=(`大學-薪資.y`/`大學-薪資.x`))%>%arrange(desc(increaserate))"
+"2","Warning messages:
+"
+"2","1: "
+"2","In strsplit(x, ""\n"") :"
+"2"," input string 1 is invalid in this locale
+"
+"2","2: "
+"2","In strsplit(code, ""\n"", fixed = TRUE) :"
+"2","
+ "
+"2"," input string 1 is invalid in this locale
+"
+"0","allsalary10<-head(allsalary,10)"
+"0","knitr::kable(allsalary10)"
