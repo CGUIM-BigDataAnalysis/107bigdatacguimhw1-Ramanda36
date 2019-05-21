@@ -9,12 +9,10 @@ author: Fan-Hwa
 ## 比較103年度和106年度大學畢業者的薪資資料
 
 ### 資料匯入與處理
-```{r dataload}
+```{r dataload,warning=FALSE}
 library(jsonlite)
 library(dplyr)
 library(readr)
-#fromjson()
-#inner_join()
 X103category <- read_csv("C:/Users/raman/Downloads/A17000000J-020066-Qod/103category.csv")
 X104category <- read_csv("C:/Users/raman/Downloads/A17000000J-020066-Qod/104category.csv")
 X105category <- read_csv("C:/Users/raman/Downloads/A17000000J-020066-Qod/105category.csv")

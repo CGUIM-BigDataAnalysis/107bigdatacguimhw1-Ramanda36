@@ -11,15 +11,8 @@ Fan-Hwa
 
 ``` r
 library(jsonlite)
-```
-
-    ## Warning: package 'jsonlite' was built under R version 3.5.3
-
-``` r
 library(dplyr)
 ```
-
-    ## Warning: package 'dplyr' was built under R version 3.5.3
 
     ## 
     ## Attaching package: 'dplyr'
@@ -34,13 +27,6 @@ library(dplyr)
 
 ``` r
 library(readr)
-```
-
-    ## Warning: package 'readr' was built under R version 3.5.3
-
-``` r
-#fromjson()
-#inner_join()
 X103category <- read_csv("C:/Users/raman/Downloads/A17000000J-020066-Qod/103category.csv")
 ```
 
